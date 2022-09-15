@@ -9,7 +9,7 @@ class EquipeTiController extends Controller
 {
     public function getEquipeTi()
     {
-        $equipe = TiSaudeEquipe::where('setor', 'Financeiro')->get();
+        $equipe = TiSaudeEquipe::where('setor', 'Ti')->get();
         return response()->json([
             'data' => $equipe
         ]);

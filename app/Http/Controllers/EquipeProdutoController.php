@@ -5,11 +5,11 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\TiSaudeEquipe;
 
-class EquipeFinanceiroController extends Controller
+class EquipeProdutoController extends Controller
 {
-    public function getEquipeFinanceiro()
+    public function getEquipeProduto()
     {
-        $equipe = TiSaudeEquipe::where('setor', 'Financeiro')->get();
+        $equipe = TiSaudeEquipe::where('setor', 'Produto')->get();
         return response()->json([
             'data' => $equipe
             ]);
