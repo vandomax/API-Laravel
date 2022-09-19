@@ -5,11 +5,11 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\TiSaudeEquipe;
 
-class EquipeSgController extends Controller
+class EquipeAsgController extends Controller
 {
-    public function getEquipeSg()
+    public function getEquipeAsg()
     {
-        $equipe = TiSaudeEquipe::where('setor', 'Sg')->get();
+        $equipe = TiSaudeEquipe::where('setor', 'Asg')->get();
         return response()->json([
             'data' => $equipe
             ]);

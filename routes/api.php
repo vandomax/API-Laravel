@@ -13,7 +13,7 @@ use App\Http\Controllers\EquipeDirecaoController;
 use App\Http\Controllers\EquipeProdutoController;
 use App\Http\Controllers\EquipeMarketingController;
 use App\Http\Controllers\EquipeRhController;
-use App\Http\Controllers\EquipeSgController;
+use App\Http\Controllers\EquipeAsgController;
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
@@ -30,5 +30,5 @@ Route::get('equipe-direcao', [EquipeDirecaoController::class, 'getEquipeDirecao'
 Route::get('equipe-produto', [EquipeProdutoController::class, 'getEquipeProduto'])->name('equipe-produto');
 Route::get('equipe-marketing', [EquipeMarketingController::class, 'getEquipeMarketing'])->name('equipe-marketing');
 Route::get('equipe-rh', [EquipeRhController::class, 'getEquipeRh'])->name('equipe-rh');
-Route::get('equipe-sg', [EquipeSgController::class, 'getEquipeSg'])->name('equipe-sg');
+Route::get('equipe-sg', [EquipeAsgController::class, 'getEquipeAsg'])->name('equipe-sg');
 

@@ -12,92 +12,92 @@ class EquipeSeeder extends Seeder
     {
         TiSaudeEquipe::create(
             [
-                "nome" => "IGOR DO AMARAL",
+                "nome" => "Igor Do Amaral",
                 "email" => "igor@tisaude.com",
                 "setor" => "Administrativo",
-                "cargo" => "Administrador1",
-                "avatar" => ""
+                "cargo" => "Administrador",
+                "avatar" => "http://localhost:8000/images/igor.png"
             ]
         );
         TiSaudeEquipe::create(
             [
-                "nome" => "JOÃO MARCELO",
+                "nome" => "João Marcelo",
                 "email" => "joao@tisaude.com",
                 "setor" => "Administrativo",
-                "cargo" => "Administrador1",
-                "avatar" => ""
+                "cargo" => "Administrador",
+                "avatar" => "http://localhost:8000/images/joao.png"
             ]
         );
         TiSaudeEquipe::create(
             [
-                "nome" => "DEBORA GUIOMAR",
+                "nome" => "Debora Guiomar",
                 "email" => "debora@tisaude.com",
                 "setor" => "Comercial",
                 "cargo" => "Analista de Comercial",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/debora.png"
             ]
         );
         TiSaudeEquipe::create(
             [
-                "nome" => "MARIANA VALENÇA",
+                "nome" => "Mariana Valença",
                 "email" => "mariana@tisaude.com",
                 "setor" => "Comercial",
                 "cargo" => "Analista de Comercial",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/marianav.png"
             ]
         );
         TiSaudeEquipe::create(
             [
-                "nome" => "TITO MAGALHAES",
+                "nome" => "Tito Magalhães",
                 "email" => "tito@tisaude.com",
                 "setor" => "Comercial",
                 "cargo" => "Gerente Comercial",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/tito.png"
             ]
         );
         TiSaudeEquipe::create(
             [
-                "nome" => "ALYNE DAYANE",
+                "nome" => "Alyne Dayane",
                 "email" => "alyne@tisaude.com",
                 "setor" => "Cs",
                 "cargo" => "Supervisora de CS",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/alyne.png"
             ]
         );
         TiSaudeEquipe::create(
             [
-                "nome" => "ANNA JULIA",
+                "nome" => "Anna Júlia",
                 "email" => "anna@tisaude.com",
                 "setor" => "Cs",
                 "cargo" => "Analista de CS",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/anna.png"
             ]
         );
         TiSaudeEquipe::create(
             [
-                "nome" => "WANESSA WALERIA",
+                "nome" => "Wanessa Walleria",
                 "email" => "wanessa@tisaude.com",
                 "setor" => "Cs",
                 "cargo" => "Analista de CS",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/wanessa.png"
             ]
         );
         TiSaudeEquipe::create(
             [
-                "nome" => "PEDRO ELIAS",
+                "nome" => "Pedro",
                 "email" => "pedro@tisaude.com",
                 "setor" => "Dados",
                 "cargo" => "Analista de dados",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/pedro.png"
             ]
         );
         TiSaudeEquipe::create(
             [
-                "nome" => "LUCAS PESTER",
+                "nome" => "Lucas Pester",
                 "email" => "lucas@tisaude.com",
                 "setor" => "Dados",
                 "cargo" => "Analista de dados",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/lucas.png"
             ]
         );
         TiSaudeEquipe::create(
@@ -106,25 +106,25 @@ class EquipeSeeder extends Seeder
                 "email" => "eduardo@tisaude.com",
                 "setor" => "Dados",
                 "cargo" => "Engenheiro de dados",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/edu.png"
             ]
         );
         TiSaudeEquipe::create(
             [
-                "nome" => "FLAVIO EDUARDO",
+                "nome" => "Flávio Eduardo",
                 "email" => "flavio@tisaude.com",
                 "setor" => "Direcao",
                 "cargo" => "COO",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/flavio.png"
             ]
-        ); 
+        );
         TiSaudeEquipe::create(
             [
-                "nome" => "FRED RABELO",
+                "nome" => "Fred Rabelo",
                 "email" => "fred@tisaude.com",
                 "setor" => "Direcao",
                 "cargo" => "CEO",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/fred.png"
             ]
         );
         TiSaudeEquipe::create(
@@ -133,133 +133,133 @@ class EquipeSeeder extends Seeder
                 "email" => "edmara@tisaude.com",
                 "setor" => "Financeiro",
                 "cargo" => "Analista de financeiro",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/edmara.png"
             ]
-        ); 
+        );
         TiSaudeEquipe::create(
             [
-                "nome" => "ANA CLAUDIA FERREIRA",
+                "nome" => "Ana Claúdia Ferreira",
                 "email" => "ana@tisaude.com",
                 "setor" => "Financeiro",
                 "cargo" => "Analista financeiro",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/claudia.jpg"
             ]
-        ); 
+        );
         TiSaudeEquipe::create(
             [
-                "nome" => "EMILLY GRAZIELLY ",
+                "nome" => "Emilly Grazielly ",
                 "email" => "emilly@tisaude.com",
                 "setor" => "Financeiro",
                 "cargo" => "Gestora do Financeiro",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/emilly.png"
             ]
-        ); 
+        );
         TiSaudeEquipe::create(
             [
-                "nome" => "ABEL ANDRE",
+                "nome" => "Abel André",
                 "email" => "abel@tisaude.com",
                 "setor" => "Marketing",
                 "cargo" => "Design",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/abel.png"
             ]
-        ); 
+        );
         TiSaudeEquipe::create(
             [
                 "nome" => "Geraldo Manoel",
                 "email" => "geraldo@tisaude.com",
                 "setor" => "Marketing",
                 "cargo" => "Analista de tráfego",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/geraldo.png"
             ]
-        ); 
+        );
         TiSaudeEquipe::create(
             [
-                "nome" => "SOL",
+                "nome" => "Solange",
                 "email" => "sol@tisaude.com",
                 "setor" => "Marketing",
                 "cargo" => "Head of Marketing",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/sol.png"
             ]
-        ); 
+        );
         TiSaudeEquipe::create(
             [
-                "nome" => "JHONYS LIMA",
+                "nome" => "Jhonys Lima",
                 "email" => "jhonys@tisaude.com",
                 "setor" => "Produto",
                 "cargo" => "Analista de produto",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/jhonny.png"
             ]
-        ); 
+        );
         TiSaudeEquipe::create(
             [
-                "nome" => "RODRIGO DE ARAUJO",
+                "nome" => "Rodrigo de Araújo",
                 "email" => "rodrigo@tisaude.com",
                 "setor" => "Produto",
                 "cargo" => "Supervisor de produto",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/rodrigo.png"
             ]
-        ); 
+        );
         TiSaudeEquipe::create(
             [
-                "nome" => "TACIANA BARROS",
+                "nome" => "Taciana Barros",
                 "email" => "taciana@tisaude.com",
                 "setor" => "Produto",
                 "cargo" => "Analista de produto",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/taciana.png"
             ]
-        ); 
+        );
         TiSaudeEquipe::create(
             [
-                "nome" => "GABRIELA ARAUJO",
+                "nome" => "Gabriela Araújo",
                 "email" => "gabriela@tisaude.com",
                 "setor" => "Rh",
                 "cargo" => "Gestora de Rh",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/gabi.png"
             ]
-        ); 
+        );
         TiSaudeEquipe::create(
             [
-                "nome" => "TAMIRES CAETANO",
+                "nome" => "Tamires Caetano",
                 "email" => "tamires@tisaude.com",
                 "setor" => "Rh",
                 "cargo" => "Analista de rh",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/tamires.png"
             ]
-        ); 
+        );
         TiSaudeEquipe::create(
             [
                 "nome" => "Dede",
                 "email" => "dede@tisaude.com",
-                "setor" => "Sg",
+                "setor" => "Asg",
                 "cargo" => "Serviços gerais",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/dede.png"
             ]
         );
         TiSaudeEquipe::create(
             [
-                "nome" => "VANDO",
+                "nome" => "Vando Max",
                 "email" => "vando@tisaude.com",
                 "setor" => "Suporte",
                 "cargo" => "Estagiário",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/vando.png"
             ]
         );
         TiSaudeEquipe::create(
             [
-                "nome" => "KAMILA ALVES",
+                "nome" => "Kamila Alves",
                 "email" => "kamila@tisaude.com",
                 "setor" => "Suporte",
                 "cargo" => "Head of Support",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/kamila.png"
             ]
         );
         TiSaudeEquipe::create(
             [
-                "nome" => "ALEXANDRE DE OLIVEIRA",
+                "nome" => "Alexandre de Oliveira",
                 "email" => "alexandre@tisaude.com",
                 "setor" => "Suporte",
                 "cargo" => "Analista de suporte pleno",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/xande.png"
             ]
         );
         TiSaudeEquipe::create(
@@ -268,34 +268,43 @@ class EquipeSeeder extends Seeder
                 "email" => "micaela@tisaude.com",
                 "setor" => "Ti",
                 "cargo" => "Analista de testes",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/micaela.png"
             ]
         );
         TiSaudeEquipe::create(
             [
-                "nome" => "Savio",
+                "nome" => "Savio Gomes",
                 "email" => "savio@tisaude.com",
                 "setor" => "Ti",
                 "cargo" => "Programador",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/savio.png"
             ]
         );
         TiSaudeEquipe::create(
             [
-                "nome" => "ALAN BATISTA",
+                "nome" => "Alan Batista",
                 "email" => "alan@tisaude.com",
                 "setor" => "Ti",
                 "cargo" => "Head of IT",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/alan.png"
             ]
         );
         TiSaudeEquipe::create(
             [
-                "nome" => "EMANUEL AUGUSTO",
+                "nome" => "Kleryston Thiago",
+                "email" => "kleryston@tisaude.com",
+                "setor" => "Ti",
+                "cargo" => "Ti Ops",
+                "avatar" => "http://localhost:8000/images/kleryston.jpg"
+            ]
+        );
+        TiSaudeEquipe::create(
+            [
+                "nome" => "Emanuel Augusto",
                 "email" => "emanuel@tisaude.com",
                 "setor" => "Ti",
                 "cargo" => "Arquiteto de software",
-                "avatar" => ""
+                "avatar" => "http://localhost:8000/images/emanuel.png"
             ]
         );
     }
