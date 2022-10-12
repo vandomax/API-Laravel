@@ -14,6 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('ti_saude_equipes', function (Blueprint $table) {
+            /* configuração colunas do banco de dados */
             $table->id();
             $table->string('nome');
             $table->string('email');

@@ -11,8 +11,7 @@ class EquipeDadosController extends Controller
     {
         $equipe = TiSaudeEquipe::where('setor', 'Dados')->get();
         return response()->json([
-        'data' => $equipe
+            'data' => $equipe
         ]);
-    
     }
 }

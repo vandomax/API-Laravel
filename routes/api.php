@@ -19,7 +19,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('equipe-financeiro', [EquipeFinanceiroController::class, 'getEquipeFinanceiro'])->name('eequipe-financeiro');
+Route::get('equipe-financeiro', [EquipeFinanceiroController::class, 'getEquipeFinanceiro'])->name('equipe-financeiro');
 Route::get('equipe-ti', [EquipeTiController::class, 'getEquipeTi'])->name('equipe-ti');
 Route::get('equipe-suporte', [EquipeSuporteController::class, 'getEquipeSuporte'])->name('equipe-suporte');
 Route::get('equipe-administrativo', [EquipeAdministrativoController::class, 'getEquipeAdministrativo'])->name('equipe-administrativo');

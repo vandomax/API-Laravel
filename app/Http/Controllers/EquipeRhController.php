@@ -12,6 +12,6 @@ class EquipeRhController extends Controller
         $equipe = TiSaudeEquipe::where('setor', 'Rh')->get();
         return response()->json([
             'data' => $equipe
-            ]);
+        ]);
     }
 }
